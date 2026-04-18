@@ -265,38 +265,38 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     padding: 20,
-    gap: 16,
+    gap: 16
   },
   centered: {
     flex: 1,
     justifyContent: "center",
     padding: 20,
-    gap: 16,
+    gap: 16
   },
   title: {
-    textAlign: "center",
+    textAlign: "center"
   },
   questionNumber: {
     fontSize: 18,
-    fontWeight: "bold",
+    fontWeight: "bold"
   },
   score: {
     fontSize: 20,
     fontWeight: "bold",
     textAlign: "center",
-    marginBottom: 12,
+    marginBottom: 12
   },
   summaryCard: {
     borderWidth: 1,
     borderColor: "#ccc",
     borderRadius: 10,
     padding: 14,
-    marginBottom: 14,
+    marginBottom: 14
   },
   summaryPrompt: {
     fontSize: 16,
     fontWeight: "bold",
-    marginBottom: 8,
+    marginBottom: 8
   },
   resultCorrect: {
     fontWeight: "bold",
